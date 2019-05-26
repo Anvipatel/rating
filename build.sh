@@ -7,7 +7,8 @@ cd $HOME/rating
 
 #building maven command
 echo "run maven clean/install"
-mvn clean install
+mvn clean
+mvn install -Dmaven.test.skip
 
 
 echo "building revrep docker image"
