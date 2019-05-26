@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.org</groupId>
-	<artifactId>revrep</artifactId>
+	<artifactId>rating</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>revrep</name>
+	<name>rating</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -79,7 +79,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<mainClass>
-						com.org.revrep.main.RevrepApplication
+						com.org.rating.ProductRatingServiceApplication
 					</mainClass>
 					<layout>ZIP</layout>
 				</configuration>
