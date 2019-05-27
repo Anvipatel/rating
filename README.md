@@ -17,3 +17,10 @@ Deployment instructions: https://github.com/Anvipatel/rating/blob/master/build.s
 It needs revrep application - https://github.com/Anvipatel/revrep
 
 Test URL: http://35.237.77.248:8103/swagger-ui.html#
+
+Test curl command:
+
+GET /ratings/{productId}
+Used to get aggregated rating for input productId
+
+curl -X GET "http://35.237.77.248:8103/ratings/product12" -H "accept: */*"
