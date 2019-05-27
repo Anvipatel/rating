@@ -1,4 +1,4 @@
-# Product Rating Service
+# rating
 Product Rating Service
 
 It is a Spring boot application for getting Product Ratings. It exposes following rest endpoints:
